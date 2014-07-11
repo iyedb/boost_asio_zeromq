@@ -5,7 +5,6 @@
 #include <boost/asio.hpp>
 #include <boost/bind.hpp>
 #include <zmq.h>
-#include <thread>
 
 
 template <typename T>
