@@ -72,7 +72,7 @@ public:
 	void operator()(const boost::system::error_code &ec, std::size_t bytes_transferred) {
 
 		boost::system::error_code zec;
-		std::size_t send_rc = 0;
+		int send_rc = 0;
 
 		if (!ec) {
 			int flags = 0;
